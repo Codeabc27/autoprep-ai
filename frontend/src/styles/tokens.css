@@ -1,0 +1,41 @@
+:root {
+  --bg-app: #F8FAFC;
+  --bg-surface: #FFFFFF;
+  --bg-secondary: #F1F5F9;
+  --text-primary: #0F172A;
+  --text-secondary: #475569;
+  --text-muted: #64748B;
+  --border-default: #E2E8F0;
+  --border-strong: #CBD5E1;
+  --primary: #059669;
+  --primary-hover: #047857;
+  --primary-active: #065F46;
+  --primary-light: #D1FAE5;
+  --primary-subtle: #ECFDF5;
+  --success: #16A34A;
+  --warning: #D97706;
+  --error: #DC2626;
+  --info: #0284C7;
+}
+
+html.dark {
+  --bg-app: #0B1120;
+  --bg-surface: #111827;
+  --bg-secondary: #1E293B;
+  --text-primary: #F8FAFC;
+  --text-secondary: #CBD5E1;
+  --text-muted: #94A3B8;
+  --border-default: #1E293B;
+  --border-strong: #334155;
+  --primary: #10B981;
+  --primary-hover: #059669;
+  --primary-active: #047857;
+  --primary-light: rgba(16, 185, 129, 0.18);
+  --primary-subtle: rgba(16, 185, 129, 0.1);
+}
+
+body {
+  background-color: var(--bg-app);
+  color: var(--text-primary);
+  font-family: "Inter", system-ui, sans-serif;
+}
