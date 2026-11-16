@@ -6,14 +6,14 @@
 
 | Page | Preview |
 | :--- | :--- |
-| **Login / Auth** |  |
-| **Dashboard** |  |
-| **Projects** |  |
-| **Datasets** |  |
-| **Data Quality Analysis** |  |
-| **Workflows & Split** |  |
-| **Reports & Exports** |  |
-| **Team & Workspace** |  |
+| **Login / Auth** | autoprep-ai_image\login.png |
+| **Dashboard** |autoprep-ai_image\dashboard.png|
+| **Projects** |autoprep-ai_image\projectpage.png|
+| **Datasets** |autoprep-ai_image\database_page.png|
+| **Data Quality Analysis** |autoprep-ai_image\data_quality_page.png|
+| **Workflows & Split** |autoprep-ai_image\workflows&split_page.png|
+| **Reports & Exports** |autoprep-ai_image\reports page.png|
+| **Team & Workspace** |autoprep-ai_image\team&workspace.png|
 
 ## Why AutoPrep AI?
 
