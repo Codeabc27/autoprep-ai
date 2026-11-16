@@ -6,14 +6,14 @@
 
 | Page | Preview |
 | :--- | :--- |
-| **Login / Auth** | autoprep-ai_image\login.png |
-| **Dashboard** |autoprep-ai_image\dashboard.png|
-| **Projects** |autoprep-ai_image\projectpage.png|
-| **Datasets** |autoprep-ai_image\database_page.png|
-| **Data Quality Analysis** |autoprep-ai_image\data_quality_page.png|
-| **Workflows & Split** |autoprep-ai_image\workflows&split_page.png|
-| **Reports & Exports** |autoprep-ai_image\reports page.png|
-| **Team & Workspace** |autoprep-ai_image\team&workspace.png|
+| **Login / Auth** | `autoprep-ai_image/login.png` |
+| **Dashboard** | `autoprep-ai_image/dashboard.png` |
+| **Projects** | `autoprep-ai_image/projectpage.png` |
+| **Datasets** | `autoprep-ai_image/database_page.png` |
+| **Data Quality Analysis** | `autoprep-ai_image/data_quality_page.png` |
+| **Workflows & Split** | `autoprep-ai_image/workflows&split_page.png` |
+| **Reports & Exports** | `autoprep-ai_image/reports page.png` |
+| **Team & Workspace** | `autoprep-ai_image/team&workspace.png` |
 
 ## Why AutoPrep AI?
 
@@ -125,8 +125,8 @@ docker compose exec web npm run build
 
 ## API Endpoints (`/api/v1`)
 
-&lt;details&gt;
-&lt;summary&gt;Expand full endpoint reference&lt;/summary&gt;
+<details>
+<summary>Expand full endpoint reference</summary>
 
 * **Auth**: `POST /auth/register`, `POST /auth/login`, `POST /auth/refresh`, `POST /auth/logout`, `GET /auth/me`, `PATCH /auth/me`, `POST /auth/password-reset/request`, `POST /auth/password-reset/confirm`
 * **Organizations**: `GET /orgs`, `POST /orgs`, `DELETE /orgs/{org_id}`, `POST /orgs/{org_id}/members`
@@ -137,7 +137,7 @@ docker compose exec web npm run build
 * **Workflows & Exports**: `GET /projects/{project_id}/workflows`, `POST /projects/{project_id}/workflows`, `GET /workflows/{workflow_id}/executions`, `POST /workflows/{workflow_id}/execute`, `GET /executions/{execution_id}`, `GET /executions/{execution_id}/artifacts`, `GET /artifacts/{artifact_id}/download`
 * **Admin**: `GET /admin/health`, `GET /admin/ready`
 
-&lt;/details&gt;
+</details>
 
 ## Project Structure
 
